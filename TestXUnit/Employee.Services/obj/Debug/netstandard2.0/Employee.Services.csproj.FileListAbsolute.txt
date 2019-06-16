@@ -1,0 +1,11 @@
+E:\Learn\TestXUnit\Employee.Services\bin\Debug\netstandard2.0\Employee.Services.deps.json
+E:\Learn\TestXUnit\Employee.Services\bin\Debug\netstandard2.0\Employee.Services.dll
+E:\Learn\TestXUnit\Employee.Services\bin\Debug\netstandard2.0\Employee.Services.pdb
+E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Employee.Services.csproj.CoreCompileInputs.cache
+E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Employee.Services.AssemblyInfoInputs.cache
+E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Employee.Services.AssemblyInfo.cs
+E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Employee.Services.dll
+E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Employee.Services.pdb
+E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Interop.Microsoft.Office.Interop.Excel.dll
+E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Employee.Services.csproj.ResolveComReference.cache
+E:\Learn\TestXUnit\Employee.Services\bin\Debug\netstandard2.0\Interop.Microsoft.Office.Interop.Excel.dll

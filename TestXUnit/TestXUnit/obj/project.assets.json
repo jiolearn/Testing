@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "ExcelDataReader/3.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ExcelDataReader.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExcelDataReader.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/15.8.0": {
         "type": "package",
         "compile": {
@@ -1681,10 +1690,42 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Employee.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Employee.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Employee.Services.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "ExcelDataReader/3.6.0": {
+      "sha512": "pTMkm7tfh638ubFQBAZC1pjTJlsMDgrWZXs0/6GgFPrijF1RfyvM7S1JTQs0Hq6EhJx81lDtdZv7Iqp3RR4zEA==",
+      "type": "package",
+      "path": "exceldatareader/3.6.0",
+      "files": [
+        ".signature.p7s",
+        "exceldatareader.3.6.0.nupkg.sha512",
+        "exceldatareader.nuspec",
+        "lib/net20/ExcelDataReader.dll",
+        "lib/net20/ExcelDataReader.pdb",
+        "lib/net20/ExcelDataReader.xml",
+        "lib/net45/ExcelDataReader.dll",
+        "lib/net45/ExcelDataReader.pdb",
+        "lib/net45/ExcelDataReader.xml",
+        "lib/netstandard1.3/ExcelDataReader.dll",
+        "lib/netstandard1.3/ExcelDataReader.pdb",
+        "lib/netstandard1.3/ExcelDataReader.xml",
+        "lib/netstandard2.0/ExcelDataReader.dll",
+        "lib/netstandard2.0/ExcelDataReader.pdb",
+        "lib/netstandard2.0/ExcelDataReader.xml"
+      ]
+    },
     "Microsoft.CodeCoverage/15.8.0": {
       "sha512": "NhfNp80eWq5ms7fMrjuRqpwhL1H56IVzXF9d+OIDcEfQ92m1DyE0c+ufUE1ogB09+sYLd58IO4eJ8jyn7AifbA==",
       "type": "package",
@@ -5737,10 +5778,17 @@
         "xunit.runner.visualstudio.2.3.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Employee.Services/1.0.0": {
+      "type": "project",
+      "path": "../Employee.Services/Employee.Services.csproj",
+      "msbuildProject": "../Employee.Services/Employee.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Employee.Services >= 1.0.0",
+      "ExcelDataReader >= 3.6.0",
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "xunit >= 2.3.1",
@@ -5776,7 +5824,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Learn\\TestXUnit\\Employee.Services\\Employee.Services.csproj": {
+              "projectPath": "E:\\Learn\\TestXUnit\\Employee.Services\\Employee.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5788,6 +5840,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "ExcelDataReader": {
+            "target": "Package",
+            "version": "[3.6.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[15.8.0, )"

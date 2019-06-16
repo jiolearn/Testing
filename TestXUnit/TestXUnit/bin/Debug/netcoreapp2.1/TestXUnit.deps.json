@@ -1,19 +1,29 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "706ea2c5328790a9cf05a96bbd3bd64d1e31b4df"
+    "signature": "dd67f50cae8f1c42c7674b618816e80228aacf31"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "TestXUnit/1.0.0": {
         "dependencies": {
+          "Employee.Services": "1.0.0",
+          "ExcelDataReader": "3.6.0",
           "Microsoft.NET.Test.Sdk": "15.8.0",
           "xunit": "2.3.1",
           "xunit.runner.visualstudio": "2.3.1"
         },
         "runtime": {
           "TestXUnit.dll": {}
+        }
+      },
+      "ExcelDataReader/3.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/ExcelDataReader.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          }
         }
       },
       "Microsoft.CodeCoverage/15.8.0": {
@@ -1052,6 +1062,11 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.8.0"
         }
+      },
+      "Employee.Services/1.0.0": {
+        "runtime": {
+          "Employee.Services.dll": {}
+        }
       }
     }
   },
@@ -1060,6 +1075,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "ExcelDataReader/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTMkm7tfh638ubFQBAZC1pjTJlsMDgrWZXs0/6GgFPrijF1RfyvM7S1JTQs0Hq6EhJx81lDtdZv7Iqp3RR4zEA==",
+      "path": "exceldatareader/3.6.0",
+      "hashPath": "exceldatareader.3.6.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/15.8.0": {
       "type": "package",
@@ -1592,6 +1614,11 @@
       "sha512": "sha512-tblA8hxXBcyHMAaCjwD+bQmb4EuNoK37FB1iv4FVks5BinZQY24Sp44VrGjPqjbS9Zk+T2MHqK+QtFjyHkSJFQ==",
       "path": "xunit.runner.visualstudio/2.3.1",
       "hashPath": "xunit.runner.visualstudio.2.3.1.nupkg.sha512"
+    },
+    "Employee.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

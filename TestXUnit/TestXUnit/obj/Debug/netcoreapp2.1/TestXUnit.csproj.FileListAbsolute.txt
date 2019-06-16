@@ -6,9 +6,12 @@ E:\Learn\TestXUnit\TestXUnit\bin\Debug\netcoreapp2.1\TestXUnit.runtimeconfig.jso
 E:\Learn\TestXUnit\TestXUnit\bin\Debug\netcoreapp2.1\TestXUnit.runtimeconfig.dev.json
 E:\Learn\TestXUnit\TestXUnit\bin\Debug\netcoreapp2.1\TestXUnit.dll
 E:\Learn\TestXUnit\TestXUnit\bin\Debug\netcoreapp2.1\TestXUnit.pdb
+E:\Learn\TestXUnit\TestXUnit\bin\Debug\netcoreapp2.1\Employee.Services.dll
+E:\Learn\TestXUnit\TestXUnit\bin\Debug\netcoreapp2.1\Employee.Services.pdb
 E:\Learn\TestXUnit\TestXUnit\obj\Debug\netcoreapp2.1\TestXUnit.csprojAssemblyReference.cache
 E:\Learn\TestXUnit\TestXUnit\obj\Debug\netcoreapp2.1\TestXUnit.csproj.CoreCompileInputs.cache
 E:\Learn\TestXUnit\TestXUnit\obj\Debug\netcoreapp2.1\TestXUnit.AssemblyInfoInputs.cache
 E:\Learn\TestXUnit\TestXUnit\obj\Debug\netcoreapp2.1\TestXUnit.AssemblyInfo.cs
+E:\Learn\TestXUnit\TestXUnit\obj\Debug\netcoreapp2.1\TestXUnit.csproj.CopyComplete
 E:\Learn\TestXUnit\TestXUnit\obj\Debug\netcoreapp2.1\TestXUnit.dll
 E:\Learn\TestXUnit\TestXUnit\obj\Debug\netcoreapp2.1\TestXUnit.pdb
