@@ -9,3 +9,4 @@ E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Employee.Services.
 E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Interop.Microsoft.Office.Interop.Excel.dll
 E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Employee.Services.csproj.ResolveComReference.cache
 E:\Learn\TestXUnit\Employee.Services\bin\Debug\netstandard2.0\Interop.Microsoft.Office.Interop.Excel.dll
+E:\Learn\TestXUnit\Employee.Services\obj\Debug\netstandard2.0\Employee.Services.csprojAssemblyReference.cache

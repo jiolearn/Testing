@@ -29,13 +29,10 @@ namespace Test
         [Theory]
         [MemberData(nameof(GridValues))]
         public void TestService(int basic, int super, int expected)
-        {
-            
+        {            
 
             Service sc = new Service();
-
-            sc.ReadExcel();
-            
+                        
             int total = sc.AddSalary(basic, super);
 
             Assert.Equal(total, expected);
